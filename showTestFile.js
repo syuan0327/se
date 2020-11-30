@@ -13,15 +13,20 @@ leadsRef.once("value", snap => {
     //alert(counter)
     }
 
+    //最新的貼文置頂
     for(;counter>=1;--counter) {
+        for(var i in snap.val()) {
         //在首頁id為article的標籤置入貼文...
-        alert(counter)
-        $('#article').append( 
+        if(snap.val()[i].index==counter)
+        {
+            $('#article').append( 
             //從資料庫讀取每一筆index、title、content的值，並呈現在頁面上
-            `<label>編號:${snap.val()[counter].index}</label><br> 
-            <label>標題:${snap.val()[counter].title}</label><br>
-            <label>內文:<br>${snap.val()[counter].content}</label><br><br>`
-        )
+            `<label>編號:${snap.val()[i].index}</label><br> 
+            <label>標題:${snap.val()[i].title}</label><br>
+            <label>內文:<br>${snap.val()[i].content}</label><br><br>`
+            )
+        }
     }
+}
 })
 
