@@ -7,8 +7,13 @@ leadsRef.once("value", snap => {
     for (var i in snap.val()) {
         var str = snap.val()[i].index;
     }
+    //alert(str)
+
     //令str的數值+1，成為新貼文的編號
-    var index = ++str;
+
+    //舊的檔案未處理str為undefined狀況，當貼文數為0會無法新增 by熙堯
+    if(str==undefined)var index=1;
+    else index = ++str;
 
     $("#send").click(function () {
         //取得title和content的數值
@@ -16,8 +21,8 @@ leadsRef.once("value", snap => {
         var content = $("#content").val();
 
         //防範標題內文為空的貼文
-        if (title == "") { alert("Please enter the title.") }  // 標題不可為空
-        if (content == "") { alert("Please enter your text.") }  // 內文不可為空
+        if (title == "") { alert("標題不可為空") } 
+        if (content == "") { alert("內文不可為空") } 
         //標題和內文都有內容則送入資料庫
         if (title && content) {
             leadsRef.push({
@@ -25,7 +30,7 @@ leadsRef.once("value", snap => {
                 "title": title,
                 "content": content,
             })
-            //重新導回首頁
+            alert("新增成功")
             location.href = "index.html";
         }
 
