@@ -1,6 +1,7 @@
 
-# se
-軟體工程期中報告
+# Software Engineering期中報告
+
+<hr>
 
 ## 工作分配
 
@@ -16,4 +17,5 @@
 
 * 成員E: 資工三 110710507 鍾瑄
 
+<hr>
 Database: https://console.firebase.google.com/u/0/project/se109-d25e7/database/se109-d25e7/data
