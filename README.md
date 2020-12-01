@@ -23,6 +23,6 @@ Database: https://console.firebase.google.com/u/0/project/se109-d25e7/database/s
 
 <hr>
 
-##成果展示
+## 成果展示
 
 <img src="https://github.com/syuan0327/se/blob/master/img/result.gif" style="zoom:50%" width="1000px"/>
