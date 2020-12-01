@@ -19,14 +19,13 @@
 
 > 因為繳交期中作業，目前此資料庫權限設定為任何人都能查看
 
-### 專案合作方式：每個成員擁有專案最高權限，可以ˊ接將成果push回專案
+### 專案合作方式：每個成員擁有專案最高權限，可以直接將成果push回專案
 
   * 此合作方式最大問題 : push回去的時候經常發現還要pull一次，使用git stash並沒有將改好的檔案存下，而是導致這些檔案被github上最新版本覆蓋
 
 ### 工作分配
 
-<img src="https://github.com/syuan0327/se/blob/master/img/work.jpg" style="zoom:50%" width="500px"/>
-(使用hackmd繪製)
+<img src="https://github.com/syuan0327/se/blob/master/img/work.jpg" style="zoom:50%" width="500px"/>(使用hackmd繪製)
 
 * 成員A: 資工三 110710507 徐熙堯
   
