@@ -1,7 +1,7 @@
 
 # Software Engineering期中報告
 
-## 專案簡述
+## 專案說明
 
 ### 專案系統：網誌
 
