@@ -1,3 +1,4 @@
+//此檔案負責人:陳士茵
 var leadsRef = firebase.database().ref();
 
 //遍歷資料庫每一筆紀錄

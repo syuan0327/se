@@ -5,7 +5,7 @@
 
 ## 工作分配
 
-<img src="https://github.com/ayd0122344/se/blob/master/work.jpg" style="zoom:50%" width="500px"/>
+<img src="https://github.com/ayd0122344/se/blob/master/img/work.jpg" style="zoom:50%" width="500px"/>
 
 * 成員A: 資工三 110710507 徐熙堯
 

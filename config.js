@@ -1,3 +1,4 @@
+//此檔案負責人:徐熙堯
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyBkFpYYXoyExGPYDW7wq1bvQNJMuX6Sz_c",

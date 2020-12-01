@@ -1,3 +1,5 @@
+//此檔案負責人:張瀞云
+
 //參考資料:https://ithelp.ithome.com.tw/articles/10205961
 //整合變數
 
