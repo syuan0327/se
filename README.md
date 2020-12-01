@@ -18,4 +18,12 @@
 * 成員E: 資工三 110710520 鍾瑄
 
 <hr>
+
 Database: https://console.firebase.google.com/u/0/project/se109-d25e7/database/se109-d25e7/data
+
+<hr>
+
+##成果展示
+
+<img src="
+https://github.com/syuan0327/se/blob/master/img/result.gif" style="zoom:50%" width="500px"/>
