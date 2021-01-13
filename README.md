@@ -41,6 +41,10 @@
 
 * 主要放在testfile的資料夾內，資料庫的測試寫在config.js裡的註解
 
+### 單元測試：
+
+* 鍾瑄：由於我在這個專案負責的是前端，所以沒有測試的部分，因此附上lodash作業。[lodash連結](https://github.com/syuan0327/se109a/tree/master/Test)
+
 ### 補充說明：
 
 * 由於每位成員的強項不一定是在網頁，所以由徐熙堯同學負責指導。
