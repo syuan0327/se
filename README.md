@@ -43,7 +43,7 @@
 
 ### 單元測試：
 
-* 鍾瑄：由於我在這個專案負責的是前端，所以沒有測試的部分，因此附上lodash作業，來證明我會測試。[lodash連結](https://github.com/syuan0327/se109a/tree/master/Test)
+* 鍾瑄：由於我在這個專案負責的是前端，所以沒有測試的部分，因此附上lodash作業。[lodash連結](https://github.com/syuan0327/se109a/tree/master/Test)
 
 ### 補充說明：
 
