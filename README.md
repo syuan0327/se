@@ -13,6 +13,8 @@
 
 2. 開啟index.html檔案即可查看網誌
 
+3. 測試檔案需要在public資料夾輸入`mocha --timeout 100000`
+
 ### 專案資料庫：
 
 [點我查看資料庫](https://console.firebase.google.com/u/0/project/se109-d25e7/database/se109-d25e7/data)

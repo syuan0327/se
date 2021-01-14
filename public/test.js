@@ -42,10 +42,6 @@ describe('myblog', function() {
     it('press enter', async function() {
       await page.keyboard.press('\r');
     })
-    it('should see the post we just do', async function() {
-      await page.goto('https://se109-d25e7.web.app', {waitUntil: 'load'})
-      let html = await page.content()
-      ok(html.indexOf('ccc') >= 0)
-    })
+
   })
 })
