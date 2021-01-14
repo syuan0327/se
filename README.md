@@ -13,7 +13,7 @@
 
 2. 開啟index.html檔案即可查看網誌
 
-3. 測試檔案需要在public資料夾輸入`mocha --timeout 100000`
+3. 測試網頁需要在public資料夾下使用terminal輸入`mocha --timeout 100000`指令即可進行測試
 
 ### 專案資料庫：
 
